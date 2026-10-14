@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cmameli.github.io/vetrina/sitemap.xml
+Sitemap: https://www.farmaciamameliloiri.it/sitemap.xml

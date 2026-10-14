@@ -15,7 +15,7 @@ e visita <http://localhost:8000>.
 ## Struttura
 
 ```
-index.html            pagina unica: apertura, servizi, galleria, contatti e mappa
+index.html            pagina unica: apertura, servizi, galleria, contatti
 css/style.css         stili (colori principali nelle variabili in :root)
 js/main.js            menu mobile e lightbox della galleria
 images/logo.png       logo (croce con caduceo)
@@ -34,7 +34,7 @@ fonts/                caratteri Poppins e Oswald (licenza OFL), ospitati nel sit
 
 - Titolo, descrizione, anteprima per i social (`images/og-image.jpg`) e dati strutturati `Pharmacy` (schema.org) sono in `<head>` di `index.html`.
 - `robots.txt` e `sitemap.xml` sono nella radice.
-- L'indirizzo del sito è impostato su `https://cmameli.github.io/vetrina/`: se si usa un dominio proprio, sostituirlo ovunque (`index.html`, `robots.txt`, `sitemap.xml`).
+- L'indirizzo del sito è `https://www.farmaciamameliloiri.it/` (file `CNAME` per GitHub Pages): se cambia, aggiornarlo in `CNAME`, `index.html`, `robots.txt` e `sitemap.xml`.
 - Se cambiano orari, telefono o servizi, aggiornare anche i dati strutturati nel `<script type="application/ld+json">`.
 - Le foto della galleria hanno miniature leggere in `images/gallery/thumb/` (800 px).
 
