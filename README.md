@@ -30,6 +30,14 @@ fonts/                caratteri Poppins e Oswald (licenza OFL), ospitati nel sit
 - **Foto**: le immagini sono in `images/gallery/` (JPEG, larghezza 1600 px). Per aggiungerne una, copiala lì e aggiungi un `<a><img></a>` nella sezione `#galleria`.
 - **Colori**: ripresi dal volantino della farmacia; si cambiano con `--green` e le altre variabili all'inizio di `css/style.css`.
 
+## SEO
+
+- Titolo, descrizione, anteprima per i social (`images/og-image.jpg`) e dati strutturati `Pharmacy` (schema.org) sono in `<head>` di `index.html`.
+- `robots.txt` e `sitemap.xml` sono nella radice.
+- L'indirizzo del sito è impostato su `https://cmameli.github.io/vetrina/`: se si usa un dominio proprio, sostituirlo ovunque (`index.html`, `robots.txt`, `sitemap.xml`).
+- Se cambiano orari, telefono o servizi, aggiornare anche i dati strutturati nel `<script type="application/ld+json">`.
+- Le foto della galleria hanno miniature leggere in `images/gallery/thumb/` (800 px).
+
 ## Privacy
 
 Il sito non usa cookie e non carica risorse da altri siti (né Google Fonts né mappe incorporate): la mappa è un semplice link a Google Maps.
