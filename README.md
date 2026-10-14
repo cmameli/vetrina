@@ -25,7 +25,7 @@ images/gallery/       foto del locale (interno ed esterno)
 
 ## Personalizzazione
 
-- **Dati da completare**: telefono, email e orari in `index.html` sono ancora segnaposto (cerca `TODO`).
+- **Dati da completare**: gli orari del sabato in `index.html` sono da confermare (cerca `TODO`).
 - **Servizi**: ogni servizio è un `<li>` nella sezione `#servizi`; aggiungi o rimuovi voci liberamente.
 - **Foto**: le immagini sono in `images/gallery/` (JPEG, larghezza 1600 px). Per aggiungerne una, copiala lì e aggiungi un `<a><img></a>` nella sezione `#galleria`.
 - **Colori**: ripresi dal volantino della farmacia; si cambiano con `--green` e le altre variabili all'inizio di `css/style.css`.
