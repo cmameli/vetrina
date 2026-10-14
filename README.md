@@ -15,7 +15,7 @@ e visita <http://localhost:8000>.
 ## Struttura
 
 ```
-index.html            pagina unica: hero, chi siamo, servizi, galleria, contatti
+index.html            pagina unica: apertura, servizi, galleria, contatti e mappa
 css/style.css         stili (colori principali nelle variabili in :root)
 js/main.js            menu mobile e lightbox della galleria
 images/logo.png       logo (croce con caduceo)
