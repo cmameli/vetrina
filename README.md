@@ -21,6 +21,7 @@ js/main.js            menu mobile e lightbox della galleria
 images/logo.png       logo (croce con caduceo)
 images/favicon.png    icona del browser
 images/gallery/       foto del locale (interno ed esterno)
+fonts/                caratteri Poppins e Oswald (licenza OFL), ospitati nel sito
 ```
 
 ## Personalizzazione
@@ -29,6 +30,10 @@ images/gallery/       foto del locale (interno ed esterno)
 - **Servizi**: ogni servizio è un `<li>` nella sezione `#servizi`; aggiungi o rimuovi voci liberamente.
 - **Foto**: le immagini sono in `images/gallery/` (JPEG, larghezza 1600 px). Per aggiungerne una, copiala lì e aggiungi un `<a><img></a>` nella sezione `#galleria`.
 - **Colori**: ripresi dal volantino della farmacia; si cambiano con `--green` e le altre variabili all'inizio di `css/style.css`.
+
+## Privacy
+
+Il sito non usa cookie e non carica risorse da altri siti (né Google Fonts né mappe incorporate): la mappa è un semplice link a Google Maps.
 
 ## Pubblicazione
 
