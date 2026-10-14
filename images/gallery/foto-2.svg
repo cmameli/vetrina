@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#e6efec"/>
+  <g fill="none" stroke="#9fbfb5" stroke-width="6">
+    <rect x="330" y="220" width="140" height="110" rx="10"/>
+    <circle cx="370" cy="260" r="14"/>
+    <path d="M330 320l50-40 30 25 25-20 35 35"/>
+  </g>
+  <text x="400" y="390" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#5f857a">Banco</text>
+  <text x="400" y="425" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#7fa398">Sostituisci con foto-2.jpg</text>
+</svg>
