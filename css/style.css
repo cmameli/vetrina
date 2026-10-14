@@ -82,6 +82,13 @@ p { margin: 0 0 1em; }
 .btn-ghost { color: var(--green-dark); background: transparent; }
 .btn-ghost:hover { background: var(--green-pale); }
 
+/* Su smartphone "Chiama" avvia la telefonata, su computer "Contatti" porta alla sezione */
+.only-phone { display: none; }
+@media (hover: none) and (pointer: coarse) {
+  .only-phone { display: inline-block; }
+  .only-desktop { display: none; }
+}
+
 /* Servizi: fascia verde in stile volantino */
 .services-band { background: var(--green); color: #fff; padding: 80px 0; }
 .band-title {
