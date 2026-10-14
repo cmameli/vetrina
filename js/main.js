@@ -37,3 +37,16 @@ document.addEventListener('keydown', (e) => {
 
 // Anno nel footer
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Pulsante "Chiama": su smartphone avvia la chiamata, su computer mostra il numero
+const callBtn = document.querySelector('.btn-call');
+const isPhone = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+if (callBtn && !isPhone) {
+  callBtn.addEventListener('click', (e) => {
+    if (callBtn.textContent !== callBtn.dataset.number) {
+      e.preventDefault();
+      callBtn.textContent = callBtn.dataset.number;
+    }
+  });
+}
